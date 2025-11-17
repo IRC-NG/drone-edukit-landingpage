@@ -1,0 +1,101 @@
+
+import { RoadmapItem } from "@/types";
+
+export const roadmapItems: RoadmapItem[] = [
+    {
+      year: "2025",
+      quarter: "Q1 2025",
+      title: "Finalisasi Prototipe",
+      status: "Selesai",
+      progress: 100,
+      description: "Penyelesaian prototipe akhir dan integrasi sistem drone.",
+    },
+    {
+      year: "2025",
+      quarter: "Q2 2025",
+      title: "Kalibrasi dan Uji Kendali",
+      status: "Selesai",
+      progress: 100,
+      description: "Proses kalibrasi sistem kontrol dan penyesuaian parameter PID.",
+    },
+    {
+      year: "2025",
+      quarter: "Q3 2025",
+      title: "Uji Terbang Ekstensif",
+      status: "Selesai",
+      progress: 100,
+      description: "Pengujian performa drone secara menyeluruh di berbagai kondisi lingkungan.",
+    },
+    {
+      year: "2025",
+      quarter: "Q4 2025",
+      title: "Penyusunan Modul Pembelajaran",
+      status: "Selesai",
+      progress: 100,
+      description: "Penyusunan kurikulum dan modul edukasi drone untuk kegiatan pelatihan dan sekolah mitra.",
+    },
+    {
+      year: "2026",
+      quarter: "Q1 2026",
+      title: "Riset Sistem Navigasi Otonom",
+      status: "Mendatang",
+      progress: 0,
+      description: "Melakukan penelitian dan eksperimen awal mengenai sistem navigasi otonom berbasis sensor GPS, kompas, dan IMU.",
+    },
+    {
+      year: "2026",
+      quarter: "Q2 2026",
+      title: "Pengembangan Sistem Autopilot",
+      status: "Mendatang",
+      progress: 0,
+      description: "Membangun sistem autopilot dengan kemampuan mengontrol arah, kecepatan, dan ketinggian secara otomatis."
+    },
+    {
+      year: "2026",
+      quarter: "Q3 2026",
+      title: "Implementasi Vision-Based Control",
+      status: "Mendatang",
+      progress: 0,
+      description: "Menggabungkan sistem kamera dan computer vision untuk mendukung navigasi berbasis penglihatan.",
+    },
+    {
+      year: "2026",
+      quarter: "Q4 2026",
+      title: "Uji Lapangan & Dokumentasi Sistem Otonom",
+      status: "Mendatang",
+      progress: 0,
+      description: "Melakukan pengujian penuh terhadap sistem otonom dan menyusun dokumentasi akhir untuk publikasi serta versi produksi.",
+    },
+    {
+      year: "2027",
+      quarter: "Q1 2027",
+      title: "Riset dan Desain Arsitektur Swarm",
+      status: "Mendatang",
+      progress: 0,
+      description: "Perancangan arsitektur komunikasi drone-to-drone menggunakan protokol nirkabel seperti LoRa, Wi-Fi Mesh, atau Zigbee.",
+    },
+    {
+      year: "2027",
+      quarter: "Q2 2027",
+      title: "Implementasi Komunikasi Antar Drone",
+      status: "Mendatang",
+      progress: 0,
+      description: "Penerapan komunikasi dua arah antar drone untuk berbagi data posisi, kecepatan, dan status misi secara sinkron.",
+    },
+    {
+      year: "2027",
+      quarter: "Q3 2027",
+      title: "Koordinasi Multi-Drone dan Pembagian Tugas",
+      status: "Mendatang",
+      progress: 0,
+      description: "Pengembangan sistem kontrol kolektif agar drone dapat berkolaborasi dalam misi bersama dengan pembagian peran otomatis.",
+    },
+    {
+      year: "2027",
+      quarter: "Q4 2027",
+      title: "Uji Lapangan Swarm & Integrasi Edukit v3.0",
+      status: "Mendatang",
+      progress: 0,
+      description: "Uji coba sistem swarm secara penuh dan integrasi hasilnya ke versi edukatif Drone Edukit v3.0.",
+    }
+  ];
